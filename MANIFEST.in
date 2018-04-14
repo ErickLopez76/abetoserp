@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include abetoserp *.css
+recursive-include abetoserp *.csv
+recursive-include abetoserp *.html
+recursive-include abetoserp *.ico
+recursive-include abetoserp *.js
+recursive-include abetoserp *.json
+recursive-include abetoserp *.md
+recursive-include abetoserp *.png
+recursive-include abetoserp *.py
+recursive-include abetoserp *.svg
+recursive-include abetoserp *.txt
+recursive-exclude abetoserp *.pyc
