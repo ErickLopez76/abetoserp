@@ -6,9 +6,9 @@ def get_data():
 	return [
 		{
 			"module_name": "Abetoserp",
-			"color": "grey",
+			"color": "blue",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Abetoserpa")
+			"label": _("Sistema Los Abetos")
 		}
 	]

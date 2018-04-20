@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class DetalleFacturas(Document):
+class Detalle_Facturas(Document):
 	pass

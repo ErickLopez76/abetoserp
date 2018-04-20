@@ -1,0 +1,22 @@
+{
+ "align_labels_right": 0,
+ "creation": "2018-04-15 09:37:38.614636",
+ "custom_format": 0,
+ "disabled": 0,
+ "doc_type": "Productos",
+ "docstatus": 0,
+ "doctype": "Print Format",
+ "font": "Default",
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Productos del inventario<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"codigo\", \"print_hide\": 0, \"label\": \"Codigo\"}, {\"fieldname\": \"nombre\", \"print_hide\": 0, \"label\": \"Nombre\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"es_modificable\", \"print_hide\": 0, \"align\": \"left\", \"label\": \"Es Modificable\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"es_madera\", \"print_hide\": 0, \"align\": \"left\", \"label\": \"Es Madera\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"id_linea\", \"print_hide\": 0, \"align\": \"left\", \"label\": \"Linea\"}, {\"fieldname\": \"nombre_linea\", \"print_hide\": 0, \"label\": \"Nombre Linea\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Actuales\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"existencia_actual\", \"print_hide\": 0, \"label\": \"Existencia Actual\"}, {\"fieldname\": \"costo_actual\", \"print_hide\": 0, \"label\": \"Costo Actual\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Kardex\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"kardexgrid\", \"print_hide\": 0, \"label\": \"Kardex\", \"visible_columns\": [{\"fieldname\": \"fecha\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"descripcion\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"ingresos\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"salidas\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"existencia\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"costo\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"fecha_real\", \"print_width\": \"\", \"print_hide\": 0}]}]",
+ "idx": 0,
+ "line_breaks": 0,
+ "modified": "2018-04-15 10:29:20.299232",
+ "modified_by": "Administrator",
+ "module": "Abetoserp",
+ "name": "tesk",
+ "owner": "Administrator",
+ "print_format_builder": 1,
+ "print_format_type": "Server",
+ "show_section_headings": 0,
+ "standard": "Yes"
+}

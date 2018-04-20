@@ -7,4 +7,10 @@ import frappe
 from frappe.model.document import Document
 
 class Facturas(Document):
-	pass
+	pass	
+@frappe.whitelist()
+def anulardoc(doc_name):
+#	frappe.db.sql("""update `tabFacturas` set estado = 'A' """)
+	factura = frappe.get_doc("Facturas", doc_name)
+	factura.estado = 'A'
+	factura.save()
